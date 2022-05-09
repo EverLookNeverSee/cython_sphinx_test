@@ -25,6 +25,11 @@ def prime_finder_python(amount):
 
 
 def prime_finder_cython(int amount):
+    """
+    Prime numbers finder implemented using pure cython
+    :param amount:
+    :return: List of primes
+    """
     cdef int number, x, found
     cdef int primes[100000]
 
